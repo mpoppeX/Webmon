@@ -18,6 +18,7 @@ import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 import javax.persistence.Version;
 
+import org.jboss.errai.common.client.api.annotations.NonPortable;
 import org.jboss.errai.common.client.api.annotations.Portable;
 
 @Portable
@@ -179,4 +180,5 @@ public class PlayerMarshallable {
 		sb.append("email=").append(getEmail()).append(", ");
 		return sb.toString();
 	}
+	
 }

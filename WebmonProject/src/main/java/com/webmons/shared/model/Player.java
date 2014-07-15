@@ -41,4 +41,5 @@ public class Player extends PlayerMarshallable{
 	public void setWebbis(Set<Webbi> webbis) {
 		this.webbis= webbis;
 	}
+	
 }
